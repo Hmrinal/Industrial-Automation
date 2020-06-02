@@ -20,6 +20,27 @@ The maximum full scale frequency output from the TCS230 are shown below for the 
 
 - For the TCS230, TCS3200 and TCS3210 the above parameters are identical.
 
+### Calibration
+
+The sensor is very sensitive to any changes in light and in practice that means any slight distance changes from the sensor to the object will cause a different reading. Additionally any ambient light changes will also cause a different reading.
+
+So to make accurate (repeatable) readings you need to control two elements:
+
+- Ambient light.
+- Distance to object.
+To calibrate the sensor, push the sensor down onto colored paper as even a small adjustment fails since the sensor is extremely sensitive.
+
+Set the serial monitor to 115200 Baud and push the sensor down and hit the 'Enter' key in the serial monitor input field. This will then show you the current RGB values. Copy these values into the RBG array and set the equivalent colname text. Recompile (or add some different colored objects). Recompile and check that the 'color' is found.
+
+Now you can test the 'objects' with the code now reporting the color of the object.
+As for "real" calibration- Its difficult and the only way you will achieve it is to place the sensor in a closed environment where you can control the lighting levels - this will give repeatable reliable measurements.
+
+### With Arduino
+
+Connect the pins according to given code, although the basic connection is shown in diagram(for reference). Then use liquid crystal connections to display the data on LCD, with that the output can be viewed on serial monitor. With proper connections, test the sensor by taking coloured papers, here the code has been done for few colours and it could be increased as per the requirement of application. After receiving different intensity colours, the sensor will respond on the basis of that intensity and wavelength.
+
+![Reference Arduino Connection Diagram](basicConnection.png)
+
 ## Dependencies
 
 - Arduino
