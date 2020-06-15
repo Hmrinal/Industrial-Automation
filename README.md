@@ -1,7 +1,6 @@
 # Industrial Automation
 
-Industrial Automation as the name reflects is a process of atomizing the present industries by using technology. It uses control systems such as computers and information technology for handling different processes and machineries in an industry to replace human beings. It deals primarily with the automation of manufacturing, quality control and material handling processes. 
-
+Industrial Automation as the name reflects is a process of atomizing the present industries by using technology. It uses control systems such as computers and information technology for handling different processes and machineries in an industry to replace human beings. It deals primarily with the automation of manufacturing, quality control and material handling processes.
 
 ## 🔨 Basic Working
 
