@@ -11,7 +11,6 @@ Firstly, the color sensor is connected to arduino uno. The TCS230 color detector
 
 Here is the basic idea about how the sensor actually works.
 
-
 ![Color Sensor Diagram](colorSensor.png)
 
 ### Frequency Outputs
