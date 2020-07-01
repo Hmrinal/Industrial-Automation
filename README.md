@@ -48,7 +48,6 @@ Connect the pins according to given code, although the basic connection is shown
 - TCS230 colour sensor with 8*8 matrix
 - LCD
 
-
 ## 📦 Install
 
 Open the code Arduino software and save as '.ino' file, after downloading the required pacakages,like 'liquid crystal' in library.These pacakages are available on GitHub and other online platforms as per the choice of project builder. 
