@@ -41,6 +41,7 @@ Connect the pins according to given code, although the basic connection is shown
 
 ![Reference Arduino Connection Diagram](basicConnection.png)
 
+
 ## Dependencies
 
 - Arduino
