@@ -28,6 +28,7 @@ So to make accurate (repeatable) readings you need to control two elements:
 
 - Ambient light.
 - Distance to object.
+
 To calibrate the sensor, push the sensor down onto colored paper as even a small adjustment fails since the sensor is extremely sensitive.
 
 Set the serial monitor to 115200 Baud and push the sensor down and hit the 'Enter' key in the serial monitor input field. This will then show you the current RGB values. Copy these values into the RBG array and set the equivalent colname text. Recompile (or add some different colored objects). Recompile and check that the 'color' is found.
