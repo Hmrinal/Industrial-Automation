@@ -15,6 +15,7 @@ Here is the basic idea about how the sensor actually works.
 ### Frequency Outputs
 
 The maximum full scale frequency output from the TCS230 are shown below for the scaling factors controlled by S0 and S1. Scaling is really just using an internal clock chip that counts the input signal (the primary clock output from the photodiode current to frequency converter) and generates divided down clocks.
+The other two photodiodes are present S2 and S3 which in turn recognize the colour.
 
 ![Frequency Output Diagram](frequencyMap.png)
 
