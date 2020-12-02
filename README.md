@@ -11,6 +11,7 @@ Firstly, the color sensor is connected to arduino uno. The TCS230 color detector
 Here is the basic idea about how the sensor actually works.
 
 ![Color Sensor Diagram](colorSensor.png)
+- working flowchart
 
 ### Frequency Outputs
 
@@ -42,6 +43,7 @@ As for "real" calibration- Its difficult and the only way you will achieve it is
 Connect the pins according to given code, although the basic connection is shown in diagram(for reference). Then use liquid crystal connections to display the data on LCD, with that the output can be viewed on serial monitor. With proper connections, test the sensor by taking coloured papers, here the code has been done for few colours and it could be increased as per the requirement of application. After receiving different intensity colours, the sensor will respond on the basis of that intensity and wavelength.
 
 ![Reference Arduino Connection Diagram](basicConnection.png)
+- connection diagram
 
 ## Dependencies
 
