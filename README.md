@@ -55,5 +55,5 @@ Connect the pins according to given code, although the basic connection is shown
 
 Open the code Arduino software and save as '.ino' file, after downloading the required pacakages,like 'liquid crystal' in library.These pacakages are available on GitHub and other online platforms as per the choice of project builder. 
 
-After saving the code and connecting the components together, run it and view the output 'Arduino Serial Monitor', as the leds on colour sensor starts blinking. 
+After saving the code and connecting the components together, run it and view the output `Arduino Serial Monitor`, as the leds on colour sensor starts blinking. 
 
