@@ -33,7 +33,7 @@ So to make accurate (repeatable) readings you need to control two elements:
 
 To calibrate the sensor, push the sensor down onto colored paper as even a small adjustment fails since the sensor is extremely sensitive.
 
-Set the serial monitor to 115200 Baud and push the sensor down and hit the 'Enter' key in the serial monitor input field. This will then show you the current RGB values. Copy these values into the RBG array and set the equivalent colname text. Recompile (or add some different colored objects). Recompile and check that the 'color' is found.
+Set the serial monitor to 115200 Baud and push the sensor down and hit the 'Enter' key in the serial monitor input field. This will then show you the current RGB values. Copy these values into the RBG array and set the equivalent colname text. Recompile (or add some different colored objects). Recompile and check that the `colour` is found.
 
 Now you can test the 'objects' with the code now reporting the color of the object.
 As for "real" calibration- Its difficult and the only way you will achieve it is to place the sensor in a closed environment where you can control the lighting levels - this will give repeatable reliable measurements.
